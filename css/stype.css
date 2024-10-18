@@ -118,5 +118,120 @@ body {
     background-size: cover;
     background-position: top 25% right 0;
     padding: 0 80px;
+    display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+} 
+
+#hero h4 {
+    padding-bottom: 15px;
+    color: #fff;
 }
+
+#hero h1 {
+    color: #cf3d3d;
+}
+
+#hero h2 {
+    color: #fff;
+}
+
+#hero p {
+    color: #a02f2f;
+}
+
+#hero button {
+    background-image: url(../img/backgruond.png);
+    background-color: transparent;
+    color:#cf3d3d;
+    padding: 14px 80px 14px 65px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    border: 0;
+}
+
+/* Feature */
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0,0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 223, 0.1);
+}
+
+#feature .fe-box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#feature .fe-box h6 {
+    display: inline-block;
+    padding: 9px 8x 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #139e93;
+    background-color: rgb(167, 231, 204);
+}
+
+/* ĐỔi màu tính năng */
+#feature .fe-box:nth-child(2) h6 {
+    background-color: #cdebbc;
+}
+#feature .fe-box:nth-child(3) h6 {
+    background-color: #add18c;
+}
+#feature .fe-box:nth-child(4) h6 {
+    background-color: #94d2d4;
+}
+#feature .fe-box:nth-child(5) h6 {
+    background-color: #92b6d4;
+}
+#feature .fe-box:nth-child(6) h6 {
+    background-color: #b694d6;
+}
+
+/* Product */
+#product1 {
+    text-align: center;
+
+}
+
+#product1 .product-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .product {
+    width: 25%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .product:hover {
+    box-shadow: 20px 20px 30px rgba(70, 62, 223, 0.1);
+}
+
