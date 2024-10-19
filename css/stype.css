@@ -72,6 +72,27 @@ body {
     position:sticky;
     top: o;
     left: 0;
+    height: 17vh;
+}
+
+#text{
+    font-size: 34px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+#text .left {
+    float: left;
+    text-align: center;
+}
+
+#text .right {
+    float: right;
+    text-align: right;
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 #koifish {
@@ -112,8 +133,8 @@ body {
 }
 
 #hero {
-    background-image: url(../img/backgruond1.png);
-    height: 90vh;
+    background-image: url(../img/background.png);
+    height: 30vh;
     width: 100%;
     background-size: cover;
     background-position: top 25% right 0;
@@ -126,25 +147,27 @@ body {
 
 #hero h4 {
     padding-bottom: 15px;
-    color: #fff;
+    color: #0d706e;
 }
 
 #hero h1 {
-    color: #cf3d3d;
+    color: #0d706e;
 }
 
 #hero h2 {
-    color: #fff;
+    color: #0d706e;
 }
 
-#hero p {
+/* #hero p {
     color: #a02f2f;
-}
+} */
 
 #hero button {
-    background-image: url(../img/backgruond.png);
-    background-color: transparent;
-    color:#cf3d3d;
+    /* background-image: url(../img/buttom.png); */
+    background-color: rgb(125, 223, 223);
+    color:#fff#63e651;
+    border: 2px solid #00000060;
+    border-radius: 2px;
     padding: 14px 80px 14px 65px;
     cursor: pointer;
     font-weight: 700;
@@ -218,11 +241,11 @@ body {
     flex-wrap: wrap;
 }
 
-#product1 .product {
-    width: 25%;
+#product1 .pro {
+    width: 23%;
     min-width: 250px;
     padding: 10px 12px;
-    border: 1px solid #cce7d0;
+    border: 1px solid #54c063;
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
@@ -235,3 +258,47 @@ body {
     box-shadow: 20px 20px 30px rgba(70, 62, 223, 0.1);
 }
 
+#product1 .product img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span {
+    color: #139e93;
+    font-size: 12px;
+}
+
+#product1 .pro .des h5 {
+    padding: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#product1 .pro .des i {
+    font-size: 12px;
+    color: gold;
+}
+
+#product1 .pro .des h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #139e93;
+}
+
+#product1 .pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: rgba(182, 243, 182, 0.733);
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
