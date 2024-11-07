@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CODEWEB\\WebAppCaKoi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E40781B-FB06-426B-97B6-A6E07FA6D1F9}|WebAppCaKoi\\WebAppCaKoi.csproj|d:\\codeweb\\webappcakoi\\webappcakoi\\controllers\\pagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E40781B-FB06-426B-97B6-A6E07FA6D1F9}|WebAppCaKoi\\WebAppCaKoi.csproj|solutionrelative:webappcakoi\\controllers\\pagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E40781B-FB06-426B-97B6-A6E07FA6D1F9}|WebAppCaKoi\\WebAppCaKoi.csproj|d:\\codeweb\\webappcakoi\\webappcakoi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E40781B-FB06-426B-97B6-A6E07FA6D1F9}|WebAppCaKoi\\WebAppCaKoi.csproj|solutionrelative:webappcakoi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E40781B-FB06-426B-97B6-A6E07FA6D1F9}|WebAppCaKoi\\WebAppCaKoi.csproj|d:\\codeweb\\webappcakoi\\webappcakoi\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E40781B-FB06-426B-97B6-A6E07FA6D1F9}|WebAppCaKoi\\WebAppCaKoi.csproj|solutionrelative:webappcakoi\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E40781B-FB06-426B-97B6-A6E07FA6D1F9}|WebAppCaKoi\\WebAppCaKoi.csproj|d:\\codeweb\\webappcakoi\\webappcakoi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E40781B-FB06-426B-97B6-A6E07FA6D1F9}|WebAppCaKoi\\WebAppCaKoi.csproj|solutionrelative:webappcakoi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E40781B-FB06-426B-97B6-A6E07FA6D1F9}|WebAppCaKoi\\WebAppCaKoi.csproj|d:\\codeweb\\webappcakoi\\webappcakoi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E40781B-FB06-426B-97B6-A6E07FA6D1F9}|WebAppCaKoi\\WebAppCaKoi.csproj|solutionrelative:webappcakoi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 234,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WebAppCaKoi\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WebAppCaKoi\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAowF8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:42:30.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PageController.cs",
+              "DocumentMoniker": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\Controllers\\PageController.cs",
+              "RelativeDocumentMoniker": "WebAppCaKoi\\Controllers\\PageController.cs",
+              "ToolTip": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\Controllers\\PageController.cs",
+              "RelativeToolTip": "WebAppCaKoi\\Controllers\\PageController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:14:46.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NhanVienController.cs",
+              "DocumentMoniker": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\Controllers\\NhanVienController.cs",
+              "RelativeDocumentMoniker": "WebAppCaKoi\\Controllers\\NhanVienController.cs",
+              "ToolTip": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\Controllers\\NhanVienController.cs",
+              "RelativeToolTip": "WebAppCaKoi\\Controllers\\NhanVienController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:03:06.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebAppCaKoi\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebAppCaKoi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAowDQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T14:38:18.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\Program.cs",
+              "RelativeDocumentMoniker": "WebAppCaKoi\\Program.cs",
+              "ToolTip": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\Program.cs",
+              "RelativeToolTip": "WebAppCaKoi\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwCUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T14:37:51.773Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 166,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1243,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
