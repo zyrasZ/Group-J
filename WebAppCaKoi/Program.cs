@@ -4,23 +4,31 @@ using CaKoi.Respositories.Interface;
 using CaKoi.Services;
 using CaKoi.Services.Interface;
 using Microsoft.EntityFrameworkCore;
+<<<<<<< HEAD
 using WebAppCaKoi.Controllers;
 using static WebAppCaKoi.Controllers.AdminController;
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 
 internal class Program
 {
     private static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+<<<<<<< HEAD
    
         builder.Services.AddHttpContextAccessor();
 
+=======
+        //thêm session
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
         builder.Services.AddSession(options =>
         {
             options.IdleTimeout = TimeSpan.FromMinutes(30);
             options.Cookie.HttpOnly = true;
             options.Cookie.IsEssential = true;
         });
+<<<<<<< HEAD
         // dùng cookie để giải quyết chuyện đăng nhập
         builder.Services.AddAuthentication(options =>
         {
@@ -47,6 +55,8 @@ internal class Program
             options.AddPolicy("EmployeePolicy", policy =>
                 policy.RequireClaim("Idnv"));
         });
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 
         // Add services to the container.
         builder.Services.AddControllersWithViews();
@@ -61,6 +71,7 @@ internal class Program
         //DI Services
         builder.Services.AddScoped<IKhachHangService, KhachHangService>();
 
+<<<<<<< HEAD
         //DI Cá Koi
         builder.Services.AddScoped<ICaCoiRespository, CaCoiRespository>();
         builder.Services.AddScoped<ICaCoiService, CaCoiService>();
@@ -79,10 +90,19 @@ internal class Program
         var app = builder.Build();
 
        
+=======
+        //DI
+        builder.Services.AddScoped<ICaCoiRespository, CaCoiRespository>();
+        builder.Services.AddScoped<ICaCoiService, CaCoiService>();
+        var app = builder.Build();
+
+
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
         // Configure the HTTP request pipeline.
         if (!app.Environment.IsDevelopment())
         {
             app.UseExceptionHandler("/Home/Error");
+<<<<<<< HEAD
             app.UseHsts();
         }
         app.UseStaticFiles();
@@ -92,6 +112,14 @@ internal class Program
         // sư dụng session
         app.UseSession();
         app.UseAuthentication();
+=======
+        }
+        app.UseStaticFiles();
+
+        
+        app.UseRouting();
+        app.UseSession();
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
         app.UseAuthorization();
 
         app.UseEndpoints(endpoints =>

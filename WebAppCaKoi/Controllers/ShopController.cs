@@ -1,10 +1,15 @@
+<<<<<<< HEAD
 ﻿using CaKoi.Respositories.Entities;
 using CaKoi.Services.Interface;
 using Microsoft.AspNetCore.Authorization;
+=======
+﻿using CaKoi.Services.Interface;
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAppCaKoi.Controllers
 {
+<<<<<<< HEAD
     
     public class ShopController : Controller
     {
@@ -15,12 +20,21 @@ namespace WebAppCaKoi.Controllers
         {
             _service = service;
             _DHservice = DHservice;
+=======
+    public class ShopController : Controller
+    {
+        private readonly ICaCoiService _service;
+        public ShopController(ICaCoiService service)
+        {
+            _service = service;
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
         }
         public async Task<IActionResult> Index()
         {
             var ca = await _service.GetCaCois();
             return View(ca);
         }
+<<<<<<< HEAD
         public IActionResult DonHang()
         {
             var UserID = HttpContext.Session.GetInt32("IdKh");
@@ -38,5 +52,7 @@ namespace WebAppCaKoi.Controllers
             _DHservice.AddDonHang(model);
             return RedirectToAction("DonHang", "Page");
         }
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     }
 }

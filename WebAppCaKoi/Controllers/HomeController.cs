@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using CaKoi.Respositories.Entities;
 using CaKoi.Services.Interface;
 using Microsoft.AspNetCore.Authentication;
@@ -7,12 +8,20 @@ using System.Security.Claims;
 using WebAppCaKoi.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
+=======
+using CaKoi.Respositories.Entities;
+using CaKoi.Services.Interface;
+using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
+using WebAppCaKoi.Models;
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 
 namespace WebAppCaKoi.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+<<<<<<< HEAD
         public readonly IKhachHangService _khachservice;
         public readonly ICaCoiService _caCoiService;
         public HomeController(ILogger<HomeController> logger, IKhachHangService service, ICaCoiService caCoiService)
@@ -74,19 +83,41 @@ namespace WebAppCaKoi.Controllers
         }
 
          public IActionResult SignUp()
+=======
+        public readonly IKhachHangService _service;
+        public HomeController(ILogger<HomeController> logger, IKhachHangService service)
+        {
+            _service = service;
+            _logger = logger;
+        }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult SignUp()
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
         {
             return View();
         }
         [HttpPost]
         public IActionResult SignUp(KhachHang model)
         {
+<<<<<<< HEAD
             if(model != null) {
                 _khachservice.AddKhachHang(model);
+=======
+            if (ModelState.IsValid)
+            {
+                _service.AddKhachHang(model);
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
                 return RedirectToAction("Index");
             }
             return View(model);
         }
 
+<<<<<<< HEAD
         public IActionResult Contact()
         {
             return View();
@@ -95,6 +126,8 @@ namespace WebAppCaKoi.Controllers
         {
             return View();
         }
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

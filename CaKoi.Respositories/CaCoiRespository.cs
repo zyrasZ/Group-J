@@ -17,6 +17,7 @@ namespace CaKoi.Respositories
             _db = db;
         }
 
+<<<<<<< HEAD
         public void DeleteCa(int id)
         {
             var ca = _db.CaCois.FirstOrDefault(i => i.IdcaKoi == id);
@@ -27,14 +28,19 @@ namespace CaKoi.Respositories
             }
         }
 
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
         public async Task<List<CaCoi>> GetCaCois()
         {
             return await _db.CaCois.ToListAsync();
         }
+<<<<<<< HEAD
         
         public CaCoi GetItemByCaKoiId(int id)
         {
             return _db.CaCois.Where(ca => ca.IdcaKoi == id).FirstOrDefault();
         }
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     }
 }

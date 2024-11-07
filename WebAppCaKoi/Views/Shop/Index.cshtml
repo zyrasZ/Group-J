@@ -1,10 +1,59 @@
 ﻿@using CaKoi.Respositories.Entities
 
 @model List<CaCoi>;
+<<<<<<< HEAD
 @{
     var UserID = Context.Session.GetInt32("IdKh");
 }
 <!-- Breadcrumb Section Begin -->
+=======
+<!-- Hero Section Begin -->
+    <section class="hero hero-normal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="hero__categories">
+                        <div class="hero__categories__all">
+                            <i class="fa fa-bars"></i>
+                            <span>All departments</span>
+                        </div>
+                        <ul>
+                        <li><a href="#">Giống cá</a></li>
+                        <li><a href="#">Trang Trại</a></li>
+                        <li><a href="#">Mức giá</a></li>
+                        <li><a href="#">Thời Gian</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="hero__search">
+                        <div class="hero__search__form">
+                            <form action="#">
+                                <div class="hero__search__categories">
+                                    All Categories
+                                    <span class="arrow_carrot-down"></span>
+                                </div>
+                                <input type="text" placeholder="What do yo u need?">
+                                <button type="submit" class="site-btn">SEARCH</button>
+                            </form>
+                        </div>
+                        <div class="hero__search__phone">
+                            <div class="hero__search__phone__icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="hero__search__phone__text">
+                                <h5>+65 11.188.888</h5>
+                                <span>support 24/7 time</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+    <!-- Breadcrumb Section Begin -->
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 
     <!-- Breadcrumb Section End -->
     <!-- Product Section Begin -->
@@ -17,7 +66,11 @@
                             <h4>Department</h4>
                             <ul>
                                 <li><a href="#">Giống cá</a></li>
+<<<<<<< HEAD
                                 <li><a href="~/Page/TrangTrai">Trang Trại</a></li>
+=======
+                                <li><a href="#">Trang Trại</a></li>
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
                                 <li><a href="#">Mức giá</a></li>
                                 <li><a href="#">Thời Gian</a></li>
                             </ul>
@@ -61,7 +114,11 @@
                                         <div class="product__discount__item__pic set-bg"
                                              data-setbg="img/product/discount/@item.HinhAnh">
                                             <ul class="product__item__pic__hover">
+<<<<<<< HEAD
                                                 <li><a asp-action="AddToCart" asp-controller="Page" asp-route-id="@item.IdcaKoi" asp-route-userid="@UserID"><i class="fa fa-shopping-cart"></i></a></li>
+=======
+                                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
                                             </ul>
                                         </div>
                                         <div class="product__discount__item__text">
@@ -97,7 +154,11 @@
                             <div class="product__item">
                                 <div class="product__item__pic set-bg" data-setbg="img/product/@item.HinhAnh">
                                     <ul class="product__item__pic__hover">
+<<<<<<< HEAD
                                         <li><a asp-action="AddToCart" asp-controller="Page" asp-route-id="@item.IdcaKoi"><i class="fa fa-shopping-cart"></i></a></li>
+=======
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
                                     </ul>
                                 </div>
                                 <div class="product__item__text">

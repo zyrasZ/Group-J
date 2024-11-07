@@ -5,6 +5,7 @@
       "PackagePath": "staticwebassets\\WebAppCaKoi.bundle.scp.css"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\admin\\css\\sb-admin-2.css",
       "PackagePath": "staticwebassets\\admin\\css\\sb-admin-2.css"
     },
@@ -7425,6 +7426,8 @@
       "PackagePath": "staticwebassets\\admin\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
@@ -7505,6 +7508,7 @@
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\02.jpg",
       "PackagePath": "staticwebassets\\img\\02.jpg"
     },
@@ -7533,6 +7537,8 @@
       "PackagePath": "staticwebassets\\img\\banner\\Matsue Nishikigoi Center.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\banner\\banner-1.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\banner-1.jpg"
     },
@@ -7541,6 +7547,7 @@
       "PackagePath": "staticwebassets\\img\\banner\\banner-2.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\blog-home.jpg",
       "PackagePath": "staticwebassets\\img\\blog-home.jpg"
     },
@@ -7569,6 +7576,8 @@
       "PackagePath": "staticwebassets\\img\\blog\\Omosako Koi Farm.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\blog\\blog-1.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog-1.jpg"
     },
@@ -7633,6 +7642,7 @@
       "PackagePath": "staticwebassets\\img\\cart\\cart-3.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\categories\\cac-Asagi.jpg",
       "PackagePath": "staticwebassets\\img\\categories\\cac-Asagi.jpg"
     },
@@ -7653,6 +7663,8 @@
       "PackagePath": "staticwebassets\\img\\categories\\cac-Tancho.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\categories\\cat-1.jpg",
       "PackagePath": "staticwebassets\\img\\categories\\cat-1.jpg"
     },
@@ -7673,6 +7685,7 @@
       "PackagePath": "staticwebassets\\img\\categories\\cat-5.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\categories\\koi1.png",
       "PackagePath": "staticwebassets\\img\\categories\\koi1.png"
     },
@@ -7701,6 +7714,8 @@
       "PackagePath": "staticwebassets\\img\\featured\\Bekko.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\featured\\feature-1.jpg",
       "PackagePath": "staticwebassets\\img\\featured\\feature-1.jpg"
     },
@@ -7733,6 +7748,7 @@
       "PackagePath": "staticwebassets\\img\\featured\\feature-8.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\featured\\ginrin.jpg",
       "PackagePath": "staticwebassets\\img\\featured\\ginrin.jpg"
     },
@@ -7793,10 +7809,13 @@
       "PackagePath": "staticwebassets\\img\\featured\\utsuri.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\hero\\banner.jpg",
       "PackagePath": "staticwebassets\\img\\hero\\banner.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\hero\\banner1.png",
       "PackagePath": "staticwebassets\\img\\hero\\banner1.png"
     },
@@ -7805,10 +7824,13 @@
       "PackagePath": "staticwebassets\\img\\hero\\ca-koi.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\language.png",
       "PackagePath": "staticwebassets\\img\\language.png"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\latest-product\\Bekko.jpg",
       "PackagePath": "staticwebassets\\img\\latest-product\\Bekko.jpg"
     },
@@ -7821,10 +7843,13 @@
       "PackagePath": "staticwebassets\\img\\latest-product\\kawarimono.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\latest-product\\kohaku.jpg",
       "PackagePath": "staticwebassets\\img\\latest-product\\kohaku.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\latest-product\\lp-1.jpg",
       "PackagePath": "staticwebassets\\img\\latest-product\\lp-1.jpg"
     },
@@ -7837,10 +7862,13 @@
       "PackagePath": "staticwebassets\\img\\latest-product\\lp-3.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\latest-product\\ogon.jpg",
       "PackagePath": "staticwebassets\\img\\latest-product\\ogon.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\latest-product\\platinum.jpg",
       "PackagePath": "staticwebassets\\img\\latest-product\\platinum.jpg"
     },
@@ -7855,12 +7883,17 @@
     {
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\latest-product\\utsuri.jpg",
       "PackagePath": "staticwebassets\\img\\latest-product\\utsuri.jpg"
+=======
+      "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\latest-product\\shusui.jpg",
+      "PackagePath": "staticwebassets\\img\\latest-product\\shusui.jpg"
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     },
     {
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\logo1.png",
       "PackagePath": "staticwebassets\\img\\logo1.png"
     },
@@ -7869,6 +7902,8 @@
       "PackagePath": "staticwebassets\\img\\main_img01.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\payment-item.png",
       "PackagePath": "staticwebassets\\img\\payment-item.png"
     },
@@ -7925,6 +7960,7 @@
       "PackagePath": "staticwebassets\\img\\product\\discount\\ogon.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\product\\discount\\pd-1.jpg",
       "PackagePath": "staticwebassets\\img\\product\\discount\\pd-1.jpg"
     },
@@ -7949,6 +7985,8 @@
       "PackagePath": "staticwebassets\\img\\product\\discount\\pd-6.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\product\\discount\\platinum.jpg",
       "PackagePath": "staticwebassets\\img\\product\\discount\\platinum.jpg"
     },
@@ -7989,6 +8027,7 @@
       "PackagePath": "staticwebassets\\img\\product\\platinum.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\product\\product-1.jpg",
       "PackagePath": "staticwebassets\\img\\product\\product-1.jpg"
     },
@@ -8037,6 +8076,8 @@
       "PackagePath": "staticwebassets\\img\\product\\product-9.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\product\\shusui.jpg",
       "PackagePath": "staticwebassets\\img\\product\\shusui.jpg"
     },
@@ -8053,6 +8094,7 @@
       "PackagePath": "staticwebassets\\img\\product\\utsuri.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\settaya(1).jpg",
       "PackagePath": "staticwebassets\\img\\settaya(1).jpg"
     },
@@ -8061,6 +8103,8 @@
       "PackagePath": "staticwebassets\\img\\settaya.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Id": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },

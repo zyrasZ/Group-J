@@ -25,4 +25,12 @@
     <ProjectReference Include="..\CaKoi.Services\CaKoi.Services.csproj" />
   </ItemGroup>
 
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <Folder Include="Areas\SignUp\Data\" />
+    <Folder Include="Areas\SignUp\Models\" />
+  </ItemGroup>
+
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 </Project>

@@ -1,27 +1,55 @@
 ﻿@model CaKoi.Respositories.Entities.KhachHang
+<<<<<<< HEAD
 
+=======
+@{
+    ViewData["Title"] = "Sign Up";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 <h4>KhachHang</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
+<<<<<<< HEAD
         <form asp-action="SignUp">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="TenTaiKhoan" class="control-label"></label>
+=======
+        <form asp-action="Index">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Idkh" class="control-label"></label>
+                <input asp-for="Idkh" class="form-control" />
+                <span asp-validation-for="Idkh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TenTaiKhoan" class="control-label">Username</label>
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
                 <input asp-for="TenTaiKhoan" class="form-control" />
                 <span asp-validation-for="TenTaiKhoan" class="text-danger"></span>
             </div>
             <div class="form-group">
+<<<<<<< HEAD
                 <label asp-for="MatKhau" class="control-label"></label>
+=======
+                <label asp-for="MatKhau" class="control-label">Password</label>
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
                 <input asp-for="MatKhau" class="form-control" />
                 <span asp-validation-for="MatKhau" class="text-danger"></span>
             </div>
             <div class="form-group">
+<<<<<<< HEAD
                 <label asp-for="Hoten" class="control-label"></label>
+=======
+                <label asp-for="Hoten" class="control-label">Your Name</label>
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
                 <input asp-for="Hoten" class="form-control" />
                 <span asp-validation-for="Hoten" class="text-danger"></span>
             </div>
             <div class="form-group">
+<<<<<<< HEAD
                 <label asp-for="Ngaysinh" class="control-label"></label>
                 <input asp-for="Ngaysinh" class="form-control" />
                 <span asp-validation-for="Ngaysinh" class="text-danger"></span>
@@ -33,6 +61,21 @@
             </div>
             <div class="form-group">
                 <label asp-for="Sdt" class="control-label"></label>
+=======
+                <label asp-for="Ngaysinh" class="control-label">Birthday</label>
+                <input type="date" asp-for="Ngaysinh" class="form-control" />
+                <span asp-validation-for="Ngaysinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gioitinh" class="control-label">Gender</label>
+                <select asp-for="Gioitinh" class="form-group">
+                    <option value="Nam">Nam</option>
+                    <option value="Nu">Nữ</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sdt" class="control-label">Number Phone</label>
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
                 <input asp-for="Sdt" class="form-control" />
                 <span asp-validation-for="Sdt" class="text-danger"></span>
             </div>
@@ -51,4 +94,7 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced

@@ -22,11 +22,14 @@ namespace CaKoi.Services
             return true;
         }
 
+<<<<<<< HEAD
         public KhachHang GetKhachByID(int id)
         {
             return _respository.GetKhachByID(id);
         }
 
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
         public KhachHang GetKhachHangByTenTaiKhoan(string tenTaiKhoan)
         {
             return _respository.GetKhachHangByTenTaiKhoan(tenTaiKhoan);
@@ -36,6 +39,7 @@ namespace CaKoi.Services
         {
             return _respository.GetKhachHangs();
         }
+<<<<<<< HEAD
 
         public KhachHang Login(string username, string password)
         {
@@ -43,5 +47,7 @@ namespace CaKoi.Services
         }
 
         
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     }
 }

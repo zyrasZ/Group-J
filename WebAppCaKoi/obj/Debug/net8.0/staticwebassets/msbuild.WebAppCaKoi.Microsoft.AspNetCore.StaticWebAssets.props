@@ -1,5 +1,6 @@
 ﻿<Project>
   <ItemGroup>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\css\sb-admin-2.css))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -29680,6 +29681,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\vendor\jquery\jquery.slim.min.map))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap.min.css))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -30000,6 +30003,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\fonts\FontAwesome.otf))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\02.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -30080,6 +30084,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\06.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banner\banner-1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -30112,6 +30118,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banner\banner-2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banner\Fukasawa Koi Farm.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -30160,6 +30167,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\blog-home.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\blog\blog-1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -30256,6 +30265,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\blog\blog-6.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\blog\Dainichi Koi Farm.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -30272,6 +30282,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\blog\Dainichi Koi Farm.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\blog\details\details-author.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -30320,6 +30332,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\blog\details\details-pic.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\blog\Fukasawa Koi Farm.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -30400,6 +30413,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\blog\Omosako Koi Farm.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\blog\sidebar\sr-1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -30512,6 +30527,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\cart\cart-3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\categories\cac-Asagi.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -30592,6 +30608,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\categories\cac-Tancho.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\categories\cat-1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -30672,6 +30690,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\categories\cat-5.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\categories\koi1.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -30784,6 +30803,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\featured\Bekko.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\featured\feature-1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -30912,6 +30933,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\featured\feature-8.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\featured\ginrin.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -31152,6 +31174,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\featured\utsuri.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\hero\banner.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -31168,6 +31192,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\hero\banner.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\hero\banner1.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -31200,6 +31225,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\hero\ca-koi.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\language.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -31216,6 +31243,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\language.png))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\latest-product\Bekko.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -31264,6 +31292,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\latest-product\kawarimono.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\latest-product\kohaku.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -31280,6 +31310,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\latest-product\kohaku.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\latest-product\lp-1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -31328,6 +31359,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\latest-product\lp-3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\latest-product\ogon.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -31344,12 +31377,20 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\latest-product\ogon.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\latest-product\platinum.jpg))">
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\latest-product\shusui.jpg))">
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebAppCaKoi</BasePath>
+<<<<<<< HEAD
       <RelativePath>img/latest-product/platinum.jpg</RelativePath>
+=======
+      <RelativePath>img/latest-product/shusui.jpg</RelativePath>
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31358,6 +31399,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+<<<<<<< HEAD
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\latest-product\platinum.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\latest-product\taisho-sanke.jpg))">
@@ -31407,6 +31449,9 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\latest-product\utsuri.jpg))</OriginalItemSpec>
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\latest-product\shusui.jpg))</OriginalItemSpec>
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\logo.png))">
       <SourceType>Package</SourceType>
@@ -31424,6 +31469,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\logo.png))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\logo1.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -31456,6 +31502,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\main_img01.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\payment-item.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -31680,6 +31728,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\product\discount\ogon.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\product\discount\pd-1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -31776,6 +31825,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\product\discount\pd-6.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\product\discount\platinum.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -31936,6 +31987,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\product\platinum.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\product\product-1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -32128,6 +32180,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\product\product-9.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\product\shusui.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -32192,6 +32246,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\product\utsuri.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\settaya(1).jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>
@@ -32224,6 +32279,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\settaya.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.min.js))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppCaKoi</SourceId>

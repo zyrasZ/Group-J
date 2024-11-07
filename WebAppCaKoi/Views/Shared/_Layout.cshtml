@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 ﻿@{
     var tenTaiKhoan = Context.Session.GetString("User");
     var TKnhanvien = Context.Session.GetString("NhanVien");
 }
 <!DOCTYPE html>
+=======
+﻿<!DOCTYPE html>
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 <html lang="zxx">
 
 <head>
@@ -11,7 +15,11 @@
     <meta name="keywords" content="Ogani, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<<<<<<< HEAD
     <title>Web Cá Koi</title>
+=======
+    <title>Ogani | Template</title>
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
@@ -37,7 +45,11 @@
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
         <div class="humberger__menu__logo">
+<<<<<<< HEAD
             <a href="~/Home"><img src="~/img/logo.png" alt=""></a>
+=======
+            <a href="#"><img src="img/logo.png" alt=""></a>
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
         </div>
         <div class="humberger__menu__cart">
             <ul>
@@ -57,6 +69,7 @@
                 </ul>
             </div>
             <div class="header__top__right__auth">
+<<<<<<< HEAD
                 @if (!string.IsNullOrEmpty(TKnhanvien))
                 {
                     <p>Xin chào, @TKnhanvien!</p>
@@ -73,6 +86,17 @@
                 {
                     <a href="@Url.Action("Login", "Account")">Login</a>
                 }
+=======
+                
+                    @if (ViewBag.TenTaiKhoan != null)
+                    {
+                        <a href="~/Account/Logout"><i class="fa fa-user"></i> @ViewBag.TenTaiKhoan</a>
+                    }
+                    else
+                    {
+                        <a href="~/SignUp/HomeLogin"><i class="fa fa-user"></i> Login</a>
+                    }
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
             </div>
         </div>
         <nav class="humberger__menu__nav mobile-menu">
@@ -88,8 +112,13 @@
                         <li><a href="./blog-details.html">Blog Details</a></li>
                     </ul>
                 </li>
+<<<<<<< HEAD
                 <li><a href="~/Home/Blog">Blog</a></li>
                 <li><a href="~/Home/Contact">Contact</a></li>
+=======
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
@@ -137,6 +166,7 @@
                                     <li><a href="#">English</a></li>
                                 </ul>
                             </div>
+<<<<<<< HEAD
 
                             <div class="header__top__right__auth">
                                 @if (!string.IsNullOrEmpty(TKnhanvien))
@@ -155,6 +185,17 @@
 
                                     <a class="dropdown-item" href="~/Home/Login" class="login-link"><i class="fa fa-user"></i> Login</a>
                                     <a class="dropdown-item" asp-controller="Home" asp-action="Logout" class="logout-link"><i class="fa fa-user"></i> Logout</a>
+=======
+                            <div class="header__top__right__auth">
+
+                                @if (ViewBag.TenTaiKhoan != null)
+                                {
+                                    <a href="~/Account/Logout"><i class="fa fa-user"></i> @ViewBag.TenTaiKhoan</a>
+                                }
+                                else
+                                {
+                                    <a href="~/SignUp/HomeLogin"><i class="fa fa-user"></i> Login</a>
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
                                 }
                             </div>
                         </div>
@@ -177,6 +218,7 @@
                             <li>
                                 <a href="#">Page</a>
                                 <ul class="header__menu__dropdown">
+<<<<<<< HEAD
                                     <li><a href="~/Page/ShopDetail">Shop Details</a></li>
                                     <li><a href="~/Page/ShopCart">Shoping Cart</a></li>
                                     <li><a href="~/Page/TrangTrai">Koi Farm</a></li>
@@ -186,6 +228,16 @@
                             <li><a href="~/Home/Blog">Blog</a></li>
                             <li><a href="~/Home/Contact">Contact</a></li>
                             
+=======
+                                    <li><a href="./shop-details.html">Shop Details</a></li>
+                                    <li><a href="./shoping-cart.html">Shoping Cart</a></li>
+                                    <li><a href="./checkout.html">Check Out</a></li>
+                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
                         </ul>
                     </nav>
                 </div>

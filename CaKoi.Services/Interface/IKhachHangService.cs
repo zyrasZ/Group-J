@@ -12,7 +12,10 @@ namespace CaKoi.Services.Interface
         Task<List<KhachHang>> GetKhachHangs();
         Boolean AddKhachHang(KhachHang model);
         KhachHang GetKhachHangByTenTaiKhoan(string tenTaiKhoan);
+<<<<<<< HEAD
         KhachHang Login(string username, string password);
         KhachHang GetKhachByID(int id);
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     }
 }

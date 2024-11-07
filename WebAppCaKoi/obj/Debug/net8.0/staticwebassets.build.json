@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "rxIoZLjp6pPnCPilpoeom/ekn8g8fdydS+liBHa3WzE=",
+=======
+  "Hash": "FcyUspaeoks6SSJRbCQ65E+eJr6bW3z1gyNf4A24R+U=",
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
   "Source": "WebAppCaKoi",
   "BasePath": "_content/WebAppCaKoi",
   "Mode": "Default",
@@ -55,6 +59,7 @@
       "OriginalItemSpec": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebAppCaKoi.bundle.scp.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\admin\\css\\sb-admin-2.css",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -35300,6 +35305,8 @@
       "OriginalItemSpec": "wwwroot\\admin\\vendor\\jquery-easing\\jquery.easing.min.js"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -35680,6 +35687,7 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff2"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\02.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -35775,6 +35783,8 @@
       "OriginalItemSpec": "wwwroot\\img\\06.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\banner\\banner-1.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -35813,6 +35823,7 @@
       "OriginalItemSpec": "wwwroot\\img\\banner\\banner-2.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\banner\\Fukasawa Koi Farm.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -35851,6 +35862,8 @@
       "OriginalItemSpec": "wwwroot\\img\\banner\\Matsue Nishikigoi Center.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\blog\\blog-1.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -35965,6 +35978,7 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\blog-6.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\blog\\Dainichi Koi Farm.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -35984,6 +35998,8 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\Dainichi Koi Farm.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\blog\\details\\details-author.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -36041,6 +36057,7 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\details\\details-pic.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\blog\\Fukasawa Koi Farm.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -36136,6 +36153,8 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\Omosako Koi Farm.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\blog\\sidebar\\sr-1.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -36193,6 +36212,7 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\sidebar\\sr-3.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\blog-home.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -36212,6 +36232,8 @@
       "OriginalItemSpec": "wwwroot\\img\\blog-home.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\breadcrumb.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -36288,6 +36310,7 @@
       "OriginalItemSpec": "wwwroot\\img\\cart\\cart-3.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\categories\\cac-Asagi.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -36383,6 +36406,8 @@
       "OriginalItemSpec": "wwwroot\\img\\categories\\cac-Tancho.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\categories\\cat-1.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -36478,6 +36503,7 @@
       "OriginalItemSpec": "wwwroot\\img\\categories\\cat-5.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\categories\\koi1.png",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -36611,6 +36637,8 @@
       "OriginalItemSpec": "wwwroot\\img\\featured\\Bekko.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\featured\\feature-1.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -36763,6 +36791,7 @@
       "OriginalItemSpec": "wwwroot\\img\\featured\\feature-8.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\featured\\ginrin.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -37048,6 +37077,8 @@
       "OriginalItemSpec": "wwwroot\\img\\featured\\utsuri.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\hero\\banner.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -37067,6 +37098,7 @@
       "OriginalItemSpec": "wwwroot\\img\\hero\\banner.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\hero\\banner1.png",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -37105,6 +37137,8 @@
       "OriginalItemSpec": "wwwroot\\img\\hero\\ca-koi.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\language.png",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -37124,6 +37158,7 @@
       "OriginalItemSpec": "wwwroot\\img\\language.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\latest-product\\Bekko.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -37181,6 +37216,8 @@
       "OriginalItemSpec": "wwwroot\\img\\latest-product\\kawarimono.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\latest-product\\kohaku.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -37200,6 +37237,7 @@
       "OriginalItemSpec": "wwwroot\\img\\latest-product\\kohaku.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\latest-product\\lp-1.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -37257,6 +37295,8 @@
       "OriginalItemSpec": "wwwroot\\img\\latest-product\\lp-3.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\latest-product\\ogon.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -37276,12 +37316,20 @@
       "OriginalItemSpec": "wwwroot\\img\\latest-product\\ogon.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\latest-product\\platinum.jpg",
+=======
+      "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\latest-product\\shusui.jpg",
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\",
       "BasePath": "_content/WebAppCaKoi",
+<<<<<<< HEAD
       "RelativePath": "img/latest-product/platinum.jpg",
+=======
+      "RelativePath": "img/latest-product/shusui.jpg",
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -37292,6 +37340,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\img\\latest-product\\platinum.jpg"
     },
     {
@@ -37350,6 +37399,9 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\latest-product\\utsuri.jpg"
+=======
+      "OriginalItemSpec": "wwwroot\\img\\latest-product\\shusui.jpg"
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     },
     {
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\logo.png",
@@ -37371,6 +37423,7 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\logo1.png",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -37409,6 +37462,8 @@
       "OriginalItemSpec": "wwwroot\\img\\main_img01.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\payment-item.png",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -37675,6 +37730,7 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\discount\\ogon.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\product\\discount\\pd-1.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -37789,6 +37845,8 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\discount\\pd-6.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\product\\discount\\platinum.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -37979,6 +38037,7 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\platinum.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\product\\product-1.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -38207,6 +38266,8 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\product-9.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\product\\shusui.jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -38283,6 +38344,7 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\utsuri.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\img\\settaya(1).jpg",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",
@@ -38321,6 +38383,8 @@
       "OriginalItemSpec": "wwwroot\\img\\settaya.jpg"
     },
     {
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
       "Identity": "D:\\CODEWEB\\WebAppCaKoi\\WebAppCaKoi\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "WebAppCaKoi",
       "SourceType": "Discovered",

@@ -23,6 +23,7 @@ namespace CaKoi.Respositories
             return true;
         }
 
+<<<<<<< HEAD
        
 
         public KhachHang GetKhachByID(int id)
@@ -30,6 +31,8 @@ namespace CaKoi.Respositories
             return _context.KhachHangs.FirstOrDefault(x => x.Idkh == id);
         }
 
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
         public KhachHang GetKhachHangByTenTaiKhoan(string tenTaiKhoan)
         {
             return _context.KhachHangs.FirstOrDefault(kh => kh.TenTaiKhoan == tenTaiKhoan);
@@ -39,10 +42,13 @@ namespace CaKoi.Respositories
         {
             return await _context.KhachHangs.ToListAsync();
         }
+<<<<<<< HEAD
 
         public KhachHang GetUserByUsernameAndPassword(string username, string password)
         {
             return _context.KhachHangs.FirstOrDefault(user => user.TenTaiKhoan == username && user.MatKhau == password);
         }
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     }
 }

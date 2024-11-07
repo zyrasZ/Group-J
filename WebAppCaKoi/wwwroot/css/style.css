@@ -753,7 +753,10 @@ ol {
 	margin-bottom: 35px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 /*---------------------
   Categories
 -----------------------*/
@@ -807,8 +810,11 @@ ol {
 	right: -35px;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 /*---------------------
   Featured
 -----------------------*/
@@ -946,6 +952,7 @@ ol {
 	font-weight: 700;
 }
 
+<<<<<<< HEAD
 /* blog-page */
 .main_left{
 	margin:0;
@@ -1058,6 +1065,8 @@ table {
 	height: auto;
 	float: left;
 }
+=======
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 /*---------------------
   Latest Product
 -----------------------*/
@@ -1161,14 +1170,22 @@ table {
 
 .breadcrumb__text h2 {
 	font-size: 46px;
+<<<<<<< HEAD
 	color: #000000;
+=======
+	color: #ffffff;
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 	font-weight: 700;
 }
 
 .breadcrumb__option a {
 	display: inline-block;
 	font-size: 16px;
+<<<<<<< HEAD
 	color: #000000;
+=======
+	color: #ffffff;
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 	font-weight: 700;
 	margin-right: 20px;
 	position: relative;
@@ -1180,14 +1197,22 @@ table {
 	top: 13px;
 	height: 1px;
 	width: 10px;
+<<<<<<< HEAD
 	background: #000000;
+=======
+	background: #ffffff;
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 	content: "";
 }
 
 .breadcrumb__option span {
 	display: inline-block;
 	font-size: 16px;
+<<<<<<< HEAD
 	color: #000000;
+=======
+	color: #ffffff;
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 }
 
 /*---------------------

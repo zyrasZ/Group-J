@@ -18,4 +18,9 @@ public partial class CaCoi
     public int? SoLuong { get; set; }
 
     public int? Idloai { get; set; }
+<<<<<<< HEAD
+=======
+
+    public int? SupId { get; set; }
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
 }

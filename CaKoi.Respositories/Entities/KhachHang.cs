@@ -4,7 +4,11 @@ using System.Collections.Generic;
 namespace CaKoi.Respositories.Entities;
 
 public partial class KhachHang
+<<<<<<< HEAD
 {
+=======
+{ 
+>>>>>>> cf7a9847859f73a1fb7551d65a287d0e7c781ced
     public int Idkh { get; set; }
 
     public string? TenTaiKhoan { get; set; }
