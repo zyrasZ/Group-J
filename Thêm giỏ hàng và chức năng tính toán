@@ -1,0 +1,13 @@
+using System;
+using System.Collections.Generic;
+
+namespace CaKoi.Repositories.Entities
+{
+    public class GioHang
+    {
+        public int Id { get; set; } // Khóa chính
+        public int KhachHangId { get; set; } // Khách hàng sở hữu giỏ hàng
+        public DateTime NgayTao { get; set; } // Ngày tạo giỏ hàng
+        public ICollection<GioHangChiTiet> ChiTietGioHang { get; set; } // Chi tiết giỏ hàng
+    }
+}
