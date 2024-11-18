@@ -1,0 +1,30 @@
+﻿@model CaKoi.Respository.Entities.DonHang
+@{
+    Layout = "LayoutAdmin";
+}
+<h4>Duyệt Đơn Hàng</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IddonHang" />
+            <div class="form-group">
+                <label asp-for="ChoDuyet" class="control-label">Duyệt Đơn</label>
+                <select asp-for="ChoDuyet">
+                    <option value ="Chua">Chưa</option>
+                    <option value="Duyet">Duyệt</option>
+                </select>
+                <span asp-validation-for="ChoDuyet" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+            <div>
+                <a asp-action="Index" class="btn btn-dark">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+

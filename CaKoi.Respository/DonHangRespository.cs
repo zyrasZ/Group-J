@@ -19,6 +19,16 @@ namespace CaKoi.Respository
             return true;
         }
 
+        public async Task<bool> AdminEditDonHang(int id, string choduyet)
+        {
+            var donHang = await _db.DonHangs.FindAsync(id);
+            if (donHang.IddonHang == 0) return false;
+
+            donHang.ChoDuyet = choduyet; // Cập nhật chờ duyệt
+            await _db.SaveChangesAsync(); // Lưu thay đổi
+            return true;
+        }
+
         public async Task<bool> DeleteDonHang(int id)
         {
             var donhang = await _db.DonHangs.FindAsync(id);
@@ -30,11 +40,12 @@ namespace CaKoi.Respository
             return false;
         }
 
-        public async Task<bool> EditDonHang(int id, string trangthai)
+        public async Task<bool> EditDonHang(int id, DateOnly ngaygiao, string trangthai)
         {
             var donHang = await _db.DonHangs.FindAsync(id);
             if (donHang.IddonHang == 0) return false;
 
+            donHang.NgayGiao = ngaygiao;
             donHang.TrangThai = trangthai; // Cập nhật trạng thái
             await _db.SaveChangesAsync(); // Lưu thay đổi
             return true;

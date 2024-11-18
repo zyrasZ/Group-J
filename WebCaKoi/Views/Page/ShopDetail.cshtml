@@ -1,5 +1,8 @@
 ﻿@using CaKoi.Respository.Entities;
 @model List<CaCoi>;
+@{
+    var UserID = Context.Session.GetInt32("IdKh");
+}
     <!-- Header Section End -->
     <!-- Hero Section Begin -->
 <section class="hero">
@@ -12,10 +15,10 @@
                         <span>All departments</span>
                     </div>
                     <ul>
-                        <li><a href="#">Giống cá</a></li>
-                        <li><a href="#">Trang Trại</a></li>
-                        <li><a href="#">Mức giá</a></li>
-                        <li><a href="#">Thời Gian</a></li>
+                        <li><a href="~/Shop">Giống cá</a></li>
+                        <li><a href="~/Page/TrangTrai">Trang Trại</a></li>
+
+                        <li><a href="~/Page/DonHang">Lịch sử mua hàng</a></li>
                     </ul>
                 </div>
             </div>
@@ -33,14 +36,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="hero__item set-bg" data-setbg="~/img/hero/ca-koi.jpg">
-                    <div class="hero__text">
-                        <span>FRUIT FRESH</span>
-                        <h2 style="color:white">Vegetable <br />100% Organic</h2>
-                        <p style="color:antiquewhite">Free Pickup and Delivery Available</p>
-                        <a href="~/Shop" class="primary-btn">SHOP NOW</a>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -52,7 +47,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Vegetable’s Package</h2>
+                        <h2>FISH KOI</h2>
 
                     </div>
                 </div>
@@ -73,16 +68,6 @@
 
                             <img class="product__details__pic__item--large"
                                  src="~/img/product/@item.HinhAnh" alt="">
-                        </div>
-                        <div class="product__details__pic__slider owl-carousel">
-                            <img data-imgbigurl="img/product/details/product-details-2.jpg"
-                                 src="img/product/details/thumb-1.jpg" alt="">
-                            <img data-imgbigurl="img/product/details/product-details-3.jpg"
-                                 src="img/product/details/thumb-2.jpg" alt="">
-                            <img data-imgbigurl="img/product/details/product-details-5.jpg"
-                                 src="img/product/details/thumb-3.jpg" alt="">
-                            <img data-imgbigurl="img/product/details/product-details-4.jpg"
-                                 src="img/product/details/thumb-4.jpg" alt="">
                         </div>
                     
                     </div>
@@ -105,15 +90,7 @@
                             vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Vestibulum ac diam sit amet
                             quam vehicula elementum sed sit amet dui. Proin eget tortor risus.
                         </p>
-                        <div class="product__details__quantity">
-                            <div class="quantity">
-                                <div class="pro-qty">
-                                    <input type="text" value="1">
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#" class="primary-btn">ADD TO CARD</a>
-                        <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+                        <a a asp-action="AddToCart" asp-controller="Page" asp-route-id="@item.IdcaKoi" asp-route-userid="@UserID" class="primary-btn">ADD TO CARD</a>
                         <ul>
                             <li><b>Availability</b> <span>In Stock</span></li>
                             <li><b>Shipping</b> <span>01 day shipping. <samp>Free pickup today</samp></span></li>
@@ -121,10 +98,7 @@
                             <li>
                                 <b>Share on</b>
                                 <div class="share">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                                    <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
                                 </div>
                             </li>
                         </ul>

@@ -10,7 +10,8 @@ namespace CaKoi.Respository.Interface
     {
         Boolean AddDonHang(DonHang model);
         Task<List<DonHang>> GetDonHangs();
-        Task <bool> EditDonHang(int id, string trangthai);
+        Task <bool> EditDonHang(int id, DateOnly ngaygiao, string trangthai);
+        Task<bool> AdminEditDonHang(int id , string choduyet);
         Task<bool> DeleteDonHang(int id);
         Task<List<DonHangChiTiet>> GetDonHangChiTiets(int id);
         Task<List<DonHangChiTiet>> GetDonHangChiTiets();

@@ -15,13 +15,12 @@
                     <div class="sidebar">
                         <div class="sidebar__item">
                             <h4>Department</h4>
-                            <ul>
-                                <li><a href="#">Giống cá</a></li>
-                                <li><a href="~/Page/TrangTrai">Trang Trại</a></li>
+                           <ul>
+                        <li><a href="~/Shop">Giống cá</a></li>
+                        <li><a href="~/Page/TrangTrai">Trang Trại</a></li>
 
-                                <li><a href="#">Mức giá</a></li>
-                                <li><a href="#">Thời Gian</a></li>
-                            </ul>
+                        <li><a href="~/Page/DonHang">Lịch sử mua hàng</a></li>
+                    </ul>
                         </div>
                 
                         <div class="sidebar__item">
@@ -33,7 +32,7 @@
                                     {
                                         <a href="#" class="latest-product__item">
                                             <div class="latest-product__item__pic">
-                                                <img src="img/latest-product/@item.HinhAnh" alt="">
+                                                <img src="~/img/latest-product/@item.HinhAnh" alt="">
                                             </div>
                                             <div class="latest-product__item__text">
                                                 <h6>Tên Loài: @item.TenLoai</h6>
@@ -99,7 +98,7 @@
                             <div class="product__item">
                                 <div class="product__item__pic set-bg" data-setbg="img/product/@item.HinhAnh">
                                     <ul class="product__item__pic__hover">
-                                        <li><a asp-action="AddToCart" asp-controller="Page" asp-route-id="@item.IdcaKoi"><i class="fa fa-shopping-cart"></i></a></li>
+                                        <li><a asp-action="AddToCart" asp-controller="Page" asp-route-id="@item.IdcaKoi" asp-route-userid="@UserID" name="Addtocart"><i class="fa fa-shopping-cart"></i></a></li>
 
                                     </ul>
                                 </div>

@@ -7653,26 +7653,6 @@
       "PackagePath": "staticwebassets\\img\\categories\\cac-Tancho.jpg"
     },
     {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\categories\\cat-1.jpg",
-      "PackagePath": "staticwebassets\\img\\categories\\cat-1.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\categories\\cat-2.jpg",
-      "PackagePath": "staticwebassets\\img\\categories\\cat-2.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\categories\\cat-3.jpg",
-      "PackagePath": "staticwebassets\\img\\categories\\cat-3.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\categories\\cat-4.jpg",
-      "PackagePath": "staticwebassets\\img\\categories\\cat-4.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\categories\\cat-5.jpg",
-      "PackagePath": "staticwebassets\\img\\categories\\cat-5.jpg"
-    },
-    {
       "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\categories\\koi1.png",
       "PackagePath": "staticwebassets\\img\\categories\\koi1.png"
     },
@@ -7699,38 +7679,6 @@
     {
       "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\featured\\Bekko.jpg",
       "PackagePath": "staticwebassets\\img\\featured\\Bekko.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\featured\\feature-1.jpg",
-      "PackagePath": "staticwebassets\\img\\featured\\feature-1.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\featured\\feature-2.jpg",
-      "PackagePath": "staticwebassets\\img\\featured\\feature-2.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\featured\\feature-3.jpg",
-      "PackagePath": "staticwebassets\\img\\featured\\feature-3.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\featured\\feature-4.jpg",
-      "PackagePath": "staticwebassets\\img\\featured\\feature-4.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\featured\\feature-5.jpg",
-      "PackagePath": "staticwebassets\\img\\featured\\feature-5.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\featured\\feature-6.jpg",
-      "PackagePath": "staticwebassets\\img\\featured\\feature-6.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\featured\\feature-7.jpg",
-      "PackagePath": "staticwebassets\\img\\featured\\feature-7.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\featured\\feature-8.jpg",
-      "PackagePath": "staticwebassets\\img\\featured\\feature-8.jpg"
     },
     {
       "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\featured\\ginrin.jpg",
@@ -7791,14 +7739,6 @@
     {
       "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\featured\\utsuri.jpg",
       "PackagePath": "staticwebassets\\img\\featured\\utsuri.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\hero\\banner.jpg",
-      "PackagePath": "staticwebassets\\img\\hero\\banner.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\hero\\banner1.png",
-      "PackagePath": "staticwebassets\\img\\hero\\banner1.png"
     },
     {
       "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\hero\\ca-koi.jpg",
@@ -7865,10 +7805,6 @@
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\logo1.png",
-      "PackagePath": "staticwebassets\\img\\logo1.png"
-    },
-    {
       "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\main_img01.jpg",
       "PackagePath": "staticwebassets\\img\\main_img01.jpg"
     },
@@ -7877,44 +7813,16 @@
       "PackagePath": "staticwebassets\\img\\payment-item.png"
     },
     {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\Bekko.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\Bekko.jpg"
+      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\bekko.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\bekko.jpg"
     },
     {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\details\\product-details-1.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\details\\product-details-1.jpg"
+      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\discount\\bekko.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\discount\\bekko.jpg"
     },
     {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\details\\product-details-2.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\details\\product-details-2.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\details\\product-details-3.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\details\\product-details-3.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\details\\product-details-4.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\details\\product-details-4.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\details\\product-details-5.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\details\\product-details-5.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\details\\thumb-1.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\details\\thumb-1.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\details\\thumb-2.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\details\\thumb-2.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\details\\thumb-3.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\details\\thumb-3.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\details\\thumb-4.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\details\\thumb-4.jpg"
+      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\discount\\ginrin.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\discount\\ginrin.jpg"
     },
     {
       "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\discount\\kawarimono.jpg",
@@ -7927,30 +7835,6 @@
     {
       "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\discount\\ogon.jpg",
       "PackagePath": "staticwebassets\\img\\product\\discount\\ogon.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\discount\\pd-1.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\discount\\pd-1.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\discount\\pd-2.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\discount\\pd-2.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\discount\\pd-3.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\discount\\pd-3.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\discount\\pd-4.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\discount\\pd-4.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\discount\\pd-5.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\discount\\pd-5.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\discount\\pd-6.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\discount\\pd-6.jpg"
     },
     {
       "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\discount\\platinum.jpg",
@@ -7991,54 +7875,6 @@
     {
       "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\platinum.jpg",
       "PackagePath": "staticwebassets\\img\\product\\platinum.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\product-1.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\product-1.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\product-10.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\product-10.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\product-11.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\product-11.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\product-12.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\product-12.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\product-2.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\product-2.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\product-3.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\product-3.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\product-4.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\product-4.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\product-5.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\product-5.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\product-6.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\product-6.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\product-7.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\product-7.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\product-8.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\product-8.jpg"
-    },
-    {
-      "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\product-9.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\product-9.jpg"
     },
     {
       "Id": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\wwwroot\\img\\product\\shusui.jpg",

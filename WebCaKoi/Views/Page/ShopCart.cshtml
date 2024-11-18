@@ -17,8 +17,8 @@
                     <ul>
                         <li><a href="~/Shop">Giống cá</a></li>
                         <li><a href="~/Page/TrangTrai">Trang Trại</a></li>
-                        <li><a href="#">Mức giá</a></li>
-                        <li><a href="#">Thời Gian</a></li>
+
+                        <li><a href="~/Page/DonHang">Lịch sử mua hàng</a></li>
                     </ul>
                 </div>
             </div>
@@ -66,6 +66,7 @@
                                 <th></th>
                             </tr>
                         </thead>
+                        
                         @foreach (var item in Model)
                         {
                             <tbody>
@@ -110,7 +111,7 @@
                         <li>Total <span>@ViewBag.Total</span></li>
                     </ul>
           
-                    <a asp-action="DonHang" asp-controller="Shop" asp-route-id="@UserID" class="primary-btn">Thanh Toán</a>
+                    <a asp-action="DonHang" asp-controller="Shop" asp-route-id="@UserID" class="primary-btn" name="thanhtoan">Thanh Toán</a>
  
                 </div>
             </div>

@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebCaKoi
 build_property.RootNamespace = WebCaKoi
@@ -18,12 +26,52 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\CODEWEB\WebCaKoi\WebCaKoi
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Admin/CreateCa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQ2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Admin/CreateNV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlTlYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Admin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Admin/EditCa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdENhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Admin/EditKH.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEtILmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Admin/EditNV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdE5WLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Home/Blog.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbG9nLmNzaHRtbA==
+[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Admin/ListCaKoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdENhS29pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Admin/ListKhachHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdEtoYWNoSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Admin/ListNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdE5oYW5WaWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Admin/LoginAD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW5BRC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Home/Contact.cshtml]
@@ -40,6 +88,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Home/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/NhanVien/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/NhanVien/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/NhanVien/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/NhanVien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CODEWEB/WebCaKoi/WebCaKoi/Views/NhanVien/LoginNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cTG9naW5OaGFuVmllbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Page/Details.cshtml]
@@ -90,82 +158,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Admin/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Home/Blog.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcSG9tZVxCbG9nLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Home/Contact.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Home/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Home/SignUp.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcSG9tZVxTaWduVXAuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Page/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcUGFnZVxEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Page/DonHang.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcUGFnZVxEb25IYW5nLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Page/ShopCart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcUGFnZVxTaG9wQ2FydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Page/ShopDetail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcUGFnZVxTaG9wRGV0YWlsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Page/TrangTrai.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcUGFnZVxUcmFuZ1RyYWkuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Shared/LayoutAdmin.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcU2hhcmVkXExheW91dEFkbWluLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Shop/DonHang.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcU2hvcFxEb25IYW5nLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Shop/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/CODEWEB/WebCaKoi/WebCaKoi/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zdkq9sa8nh
-
-[D:/CODEWEB/WebCaKoi/WebCaKoi/WebCaKoi/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2ViQ2FLb2lcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-x3njmqyups

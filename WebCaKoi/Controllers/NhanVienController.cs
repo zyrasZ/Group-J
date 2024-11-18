@@ -9,7 +9,7 @@ using System.Security.Claims;
 
 namespace WebCaKoi.Controllers
 {
-    [Authorize(AuthenticationSchemes = "EmployeeCookie")]
+   
     public class NhanVienController : Controller
     {
         private readonly IDonHangService _service;
@@ -41,10 +41,10 @@ namespace WebCaKoi.Controllers
             new Claim("Idnv", nhanvien.Idnv.ToString())
         };
 
-                var identity = new ClaimsIdentity(claims, "CookieAuth");
+                var identity = new ClaimsIdentity(claims, "EmployeeCookie");
                 var principal = new ClaimsPrincipal(identity);
 
-                await HttpContext.SignInAsync("CookieAuth", principal);
+                await HttpContext.SignInAsync("EmployeeCookie", principal);
                 HttpContext.Session.SetString("NhanVien", nhanvien.TenTaiKhoan);
                 HttpContext.Session.SetString("Idnv", nhanvien.Idnv);
 
@@ -54,17 +54,15 @@ namespace WebCaKoi.Controllers
             ViewBag.Error = "Tài khoản hoặc mật khẩu không đúng!";
             return View();
         }
-
         public async Task<IActionResult> LogoutNhanVien()
         {
             HttpContext.Session.Clear();
             // Thực hiện đăng xuất
-            await HttpContext.SignOutAsync();
+            await HttpContext.SignOutAsync("EmployeeCookie");
 
             // Chuyển hướng đến trang chủ hoặc trang đăng nhập
-            return RedirectToAction("Loginn");
+            return RedirectToAction("Index");
         }
-
         public async Task<IActionResult> Details(int id)
         {
             var donchitiet = await _service.GetDonHangChiTiets(id);
@@ -75,11 +73,11 @@ namespace WebCaKoi.Controllers
             return View(donchitiet);
         }
 
-        public async Task<IActionResult> Edit(int id, string trangthai)
+        public async Task<IActionResult> Edit(int id, DateOnly ngaygiao, string trangthai)
         {
             if (ModelState.IsValid)
             {
-                var result = await _service.EditDonHang(id, trangthai);
+                var result = await _service.EditDonHang(id,ngaygiao,trangthai);
                 if (result)
                 {
                     // Redirect hoặc hiển thị thông báo thành công

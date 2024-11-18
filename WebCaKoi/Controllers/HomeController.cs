@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Security.Claims;
 using WebCaKoi.Models;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 
 
@@ -63,12 +62,13 @@ namespace WebCaKoi.Controllers
             ViewBag.Error = "Tài khoản hoặc mật khẩu không đúng!";
             return View();
         }
+        
 
         public async Task<IActionResult> Logout()
         {
             HttpContext.Session.Clear();
             // Thực hiện đăng xuất
-            await HttpContext.SignOutAsync();
+            await HttpContext.SignOutAsync("CookieAuth");
 
             // Chuyển hướng đến trang chủ hoặc trang đăng nhập
             return RedirectToAction("Index", "Home");
@@ -89,10 +89,6 @@ namespace WebCaKoi.Controllers
             return View(model);
         }
         public IActionResult Contact()
-        {
-            return View();
-        }
-        public IActionResult Blog()
         {
             return View();
         }
