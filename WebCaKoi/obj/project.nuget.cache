@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EcuDh0Wdpp8=",
+  "dgSpecHash": "4Bs7G63a2M4=",
   "success": true,
   "projectFilePath": "D:\\CODEWEB\\WebCaKoi\\WebCaKoi\\WebCaKoi.csproj",
   "expectedPackageFiles": [
@@ -139,9 +139,6 @@
     "C:\\Users\\dangk\\.nuget\\packages\\nuget.projectmodel\\6.11.0\\nuget.projectmodel.6.11.0.nupkg.sha512",
     "C:\\Users\\dangk\\.nuget\\packages\\nuget.protocol\\6.11.0\\nuget.protocol.6.11.0.nupkg.sha512",
     "C:\\Users\\dangk\\.nuget\\packages\\nuget.versioning\\6.11.0\\nuget.versioning.6.11.0.nupkg.sha512",
-    "C:\\Users\\dangk\\.nuget\\packages\\selenium.support\\4.26.1\\selenium.support.4.26.1.nupkg.sha512",
-    "C:\\Users\\dangk\\.nuget\\packages\\selenium.webdriver\\4.26.1\\selenium.webdriver.4.26.1.nupkg.sha512",
-    "C:\\Users\\dangk\\.nuget\\packages\\selenium.webdriver.chromedriver\\130.0.6723.11600\\selenium.webdriver.chromedriver.130.0.6723.11600.nupkg.sha512",
     "C:\\Users\\dangk\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\dangk\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",
     "C:\\Users\\dangk\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",

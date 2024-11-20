@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CaKoi.Respository.Entities.DonHangChiTiet>
+﻿@model IEnumerable<CaKoi.Respository.Entities.DonCt>
 @{
     Layout = "LayoutAdmin";
 }
@@ -10,10 +10,7 @@
                 @Html.DisplayNameFor(model => model.IdcaKoi)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SoLuong)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TongTien)
+                @Html.DisplayNameFor(model => model.Idkh)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.TenLoai)
@@ -22,7 +19,10 @@
                 @Html.DisplayNameFor(model => model.Gia)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Idkh)
+                @Html.DisplayNameFor(model => model.SoLuong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TongTien)
             </th>
             <th></th>
         </tr>
@@ -33,22 +33,21 @@
             <td>
                 @Html.DisplayFor(modelItem => item.IdcaKoi)
             </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Idkh)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenLoai)
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.SoLuong)
             </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gia)
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.TongTien)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TenLoai)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Gia)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Idkh)
-            </td>
-
         </tr>
 }
         <div>
@@ -56,3 +55,4 @@
         </div>
     </tbody>
 </table>
+<h2>Tổng Tiền Thanh Toán: @ViewBag.Total$</h2>

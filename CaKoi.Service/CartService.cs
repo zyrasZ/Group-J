@@ -2,10 +2,13 @@
 using CaKoi.Respository.Entities;
 using CaKoi.Respository.Interface;
 using CaKoi.Service.Interface;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 namespace CaKoi.Service
 {
@@ -14,14 +17,16 @@ namespace CaKoi.Service
         private readonly ICartRespository _cartRepository;
         private readonly ICaCoiRespository _caKoiRepository; // Nếu bạn cần truy cập thông tin Ca Koi
         private IKhachHangRespository _khachRespository;
-        public CartService(ICartRespository cartRepository, ICaCoiRespository caKoiRepository, IKhachHangRespository khachRespository)
+        private IDonHangRespository _dhRespository;
+        public CartService(ICartRespository cartRepository, ICaCoiRespository caKoiRepository, IKhachHangRespository khachRespository, IDonHangRespository dhRespository)
         {
             _cartRepository = cartRepository;
             _caKoiRepository = caKoiRepository;
             _khachRespository = khachRespository;
+            _dhRespository = dhRespository;
         }
 
-        public void AddToCart(int idkh, int id, int quantity)
+        public void AddToCart(int idkh, int idca, int quantity)
         {
             var khach =  _khachRespository.GetKhachByID(idkh);
             if (khach == null)
@@ -29,7 +34,7 @@ namespace CaKoi.Service
                 throw new InvalidOperationException("Khách hàng không tồn tại.");
             }
 
-            var caKoi =  _caKoiRepository.GetItemByCaKoiId(id);
+            var caKoi =  _caKoiRepository.GetItemByCaKoiId(idca);
             if (caKoi == null)
             {
                 throw new InvalidOperationException("Cá koi không tồn tại.");
@@ -45,7 +50,6 @@ namespace CaKoi.Service
                     TenLoai = caKoi.TenLoai,
                     TongTien = caKoi.Gia * quantity
                 };
-
                 // Kiểm tra nếu đối tượng này đã tồn tại trong giỏ hàng
                 var existingItem =  _cartRepository.GetItemByCaKoiId(khach.Idkh, caKoi.IdcaKoi);
                 if (existingItem != null)
@@ -62,21 +66,19 @@ namespace CaKoi.Service
                 }
             }
         }
-
         public void Deletecart(int id)
         {
             _cartRepository.Deletecart(id);
             
         }
-
         public IEnumerable<DonHangChiTiet> GetCartItems()
         {
             return _cartRepository.GetCartItems();
         }
 
-        public decimal GetTotal()
+        public decimal GetTotalCT(int id)
         {
-            return _cartRepository.GetTotal();
+            return _cartRepository.GetTotalCT(id);
         }
 
         public decimal GetTotal(int value)

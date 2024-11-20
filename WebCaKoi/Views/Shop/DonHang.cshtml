@@ -1,6 +1,6 @@
 ﻿@model CaKoi.Respository.Entities.DonHang
 
-<h4>DonHang</h4>
+<h4>Đơn Hàng</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -10,7 +10,7 @@
             <input type="hidden" asp-for="Idkh" class="form-control" />
 
             <div class="form-group">
-                <label asp-for="NgayMua" class="control-label"></label>
+                <label asp-for="NgayMua" class="control-label"> Ngày Mua</label>
                 <input type="date" asp-for="NgayMua" class="form-control" />
                 <span asp-validation-for="NgayMua" class="text-danger"></span>
             </div>
@@ -30,6 +30,6 @@
 </div>
 
 <div>
-    <a asp-action="ShopCart" asp-controller="Page">Back to List</a>
+    <a asp-action="ShopCart" asp-controller="Page" class="btn btn-dark">Back to List</a>
 </div>
 

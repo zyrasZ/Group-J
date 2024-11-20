@@ -98,11 +98,7 @@ namespace WebCaKoi
             // sư dụng session
             app.UseSession();
             app.UseAuthentication();
-            app.UseStaticFiles();
 
-
-            app.UseRouting();
-            app.UseSession();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

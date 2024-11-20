@@ -44,7 +44,7 @@
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.IddonHang" class="btn btn-warning">Edit</a> |
                     <a asp-action="Details" asp-route-id="@item.Idkh" class="btn btn-primary">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.IddonHang" class="btn btn-danger">Delete</a>
+                    <a asp-action="Delete" asp-route-id="@item.IddonHang" asp-route-idkh="@item.Idkh" class="btn btn-danger">Delete</a>
                 </td>
             </tr>
         }

@@ -140,6 +140,10 @@
             "Microsoft.AspNetCore.Session": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -235,18 +239,6 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
-            },
-            "Selenium.Support": {
-              "target": "Package",
-              "version": "[4.26.1, )"
-            },
-            "Selenium.WebDriver": {
-              "target": "Package",
-              "version": "[4.26.1, )"
-            },
-            "Selenium.WebDriver.ChromeDriver": {
-              "target": "Package",
-              "version": "[130.0.6723.11600, )"
             }
           },
           "imports": [

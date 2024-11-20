@@ -41,5 +41,19 @@ namespace CaKoi.Service
         {
             return await _respository.DeleteCa(id);
         }
+
+        public async Task<List<CaCoi>> SearchProductsAsync(string searchQuery)
+        {
+            var products = await _respository.GetCaCois();
+
+            if (!string.IsNullOrEmpty(searchQuery))
+            {
+                products = products
+                    .Where(p => p.TenLoai.Contains(searchQuery, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+            }
+
+            return products;
+        }
     }
 }

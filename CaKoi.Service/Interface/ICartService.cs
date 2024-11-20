@@ -12,6 +12,7 @@ namespace CaKoi.Service.Interface
         void AddToCart(int idkh, int id, int quantity);
         IEnumerable<DonHangChiTiet> GetCartItems();
         void Deletecart(int id);
+        decimal GetTotalCT(int value);
         decimal GetTotal(int value);
     }
 }

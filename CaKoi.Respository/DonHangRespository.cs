@@ -12,6 +12,13 @@ namespace CaKoi.Respository
 
         }
 
+        public bool AddDCT(DonCt model)
+        {
+            _db.Add(model);
+            _db.SaveChanges();
+            return true;
+        }
+
         public bool AddDonHang(DonHang model)
         {
             _db.Add(model);
@@ -26,6 +33,14 @@ namespace CaKoi.Respository
 
             donHang.ChoDuyet = choduyet; // Cập nhật chờ duyệt
             await _db.SaveChangesAsync(); // Lưu thay đổi
+            return true;
+        }
+
+        public async Task<bool> DeleteDCT(int idkh)
+        {
+            var items = await _db.DonCts.Where(d => d.Idkh == idkh).ToListAsync();
+            _db.DonCts.RemoveRange(items);
+            await _db.SaveChangesAsync();
             return true;
         }
 
@@ -50,6 +65,12 @@ namespace CaKoi.Respository
             await _db.SaveChangesAsync(); // Lưu thay đổi
             return true;
         }
+
+        public async Task<List<DonCt>>? GetChiTiets(int id)
+        {
+            return await _db.DonCts.Where(dhct => dhct.Idkh == id).ToListAsync();
+        }
+
         public async Task<List<DonHangChiTiet>> GetDonHangChiTiets(int id)
         {
             
@@ -65,5 +86,11 @@ namespace CaKoi.Respository
         {
             return await _db.DonHangs.ToListAsync();
         }
+
+        public async Task<List<DonHang>> GetDonHangs(int userid)
+        {
+            return await _db.DonHangs.Where(dh => dh.Idkh == userid).ToListAsync();
+        }
+
     }
 }

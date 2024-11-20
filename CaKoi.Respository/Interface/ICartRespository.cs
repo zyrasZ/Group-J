@@ -14,7 +14,7 @@ namespace CaKoi.Respository.Interface
         DonHangChiTiet GetItemByCaKoiId(int idkh, int idcaKoi);
         void UpdateCartItem(DonHangChiTiet dct);
         void Deletecart(int id);
-        decimal GetTotal();
+        decimal GetTotalCT(int id);
         decimal GetTotal(int id);
     }
 }

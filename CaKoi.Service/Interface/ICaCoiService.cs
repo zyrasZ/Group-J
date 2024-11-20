@@ -14,5 +14,6 @@ namespace CaKoi.Service.Interface
         Boolean AddCa(CaCoi caCoi);
         Task<bool> CapNhatCa(int id, CaCoi ca);
         Task<bool> DeleteCa(int id);
+        Task<List<CaCoi>> SearchProductsAsync(string searchQuery);
     }
 }

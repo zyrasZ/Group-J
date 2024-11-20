@@ -14,14 +14,21 @@ namespace WebCaKoi.Controllers
     {
         private readonly IDonHangService _service;
         private readonly INhanVienService _nvService;
-        public NhanVienController(IDonHangService service, INhanVienService nvService)
+        private readonly ICartService _cartService;
+        public NhanVienController(IDonHangService service, INhanVienService nvService, ICartService cartService)
         {
             _service = service;
             _nvService = nvService;
+            _cartService = cartService; 
         }
         [Authorize(AuthenticationSchemes = "EmployeeCookie")]
         public async Task<IActionResult> Index()
         {
+            var userId = HttpContext.Session.GetString("Idnv");
+            if (userId == null)
+            {
+                return RedirectToAction("LoginNhanVien");
+            }
             var donhang = await _service.GetDonHangs();
             return View(donhang);
         }
@@ -61,11 +68,13 @@ namespace WebCaKoi.Controllers
             await HttpContext.SignOutAsync("EmployeeCookie");
 
             // Chuyển hướng đến trang chủ hoặc trang đăng nhập
-            return RedirectToAction("Index");
+            return RedirectToAction("LoginNhanVien", "NhanVien");
         }
         public async Task<IActionResult> Details(int id)
         {
-            var donchitiet = await _service.GetDonHangChiTiets(id);
+            var donchitiet = await _service.GetChiTiets(id);
+            var Total = _cartService.GetTotalCT(id);
+            ViewBag.Total = Total;
             if (donchitiet == null || donchitiet.Count == 0)
             {
                 return NotFound();
@@ -92,11 +101,12 @@ namespace WebCaKoi.Controllers
             return View(); // Trả về view nếu có lỗi
         }
 
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(int id, int idkh)
         {
 
             var result = await _service.DeleteDonHang(id);
-            if (result)
+            var dct = await _service.DeleteDCT(idkh);
+            if (result && dct)
             {
                 return RedirectToAction("Index");
             }

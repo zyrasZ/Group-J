@@ -18,7 +18,12 @@ namespace CaKoi.Service
         {
             _respository = respository;
         }
-        
+
+        public bool AddDCT(DonCt model)
+        {
+            return _respository.AddDCT(model);
+        }
+
         public bool AddDonHang(DonHang model)
         {
             return _respository.AddDonHang(model);
@@ -27,6 +32,11 @@ namespace CaKoi.Service
         public async Task<bool> AdminEditDonHang(int id, string choduyet)
         {
             return await _respository.AdminEditDonHang(id, choduyet);
+        }
+
+        public async Task<bool> DeleteDCT(int id)
+        {
+            return await _respository.DeleteDCT(id);
         }
 
         public async Task<bool> DeleteDonHang(int id)
@@ -39,6 +49,10 @@ namespace CaKoi.Service
             return await _respository.EditDonHang(id, ngaygiao, trangthai);
         }
 
+        public Task<List<DonCt>> GetChiTiets(int id)
+        {
+            return _respository.GetChiTiets(id);
+        }
 
         public Task<List<DonHangChiTiet>> GetDonHangChiTiets(int id)
         {
@@ -53,6 +67,11 @@ namespace CaKoi.Service
         public Task<List<DonHang>> GetDonHangs()
         {
             return _respository.GetDonHangs();
+        }
+
+        public Task<List<DonHang>> GetDonHangs(int userid)
+        {
+            return _respository.GetDonHangs(userid);
         }
     }
 }

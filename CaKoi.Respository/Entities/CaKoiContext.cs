@@ -17,7 +17,7 @@ public partial class CaKoiContext : DbContext
 
     public virtual DbSet<CaCoi> CaCois { get; set; }
 
-    public virtual DbSet<ChucVu> ChucVus { get; set; }
+    public virtual DbSet<DonCt> DonCts { get; set; }
 
     public virtual DbSet<DonHang> DonHangs { get; set; }
 
@@ -55,18 +55,18 @@ public partial class CaKoiContext : DbContext
                 .IsUnicode(false);
         });
 
-        modelBuilder.Entity<ChucVu>(entity =>
+        modelBuilder.Entity<DonCt>(entity =>
         {
-            entity.HasKey(e => e.Idcv).HasName("PK__ChucVu__B87D808B03084F47");
+            entity.HasKey(e => e.IdchiTiet);
 
-            entity.ToTable("ChucVu");
+            entity.ToTable("DonCT");
 
-            entity.Property(e => e.Idcv)
-                .ValueGeneratedNever()
-                .HasColumnName("IDCV");
-            entity.Property(e => e.TenChucVu)
+            entity.Property(e => e.IdchiTiet).HasColumnName("IDChiTiet");
+            entity.Property(e => e.IdcaKoi).HasColumnName("IDCaKoi");
+            entity.Property(e => e.Idkh).HasColumnName("IDKH");
+            entity.Property(e => e.TenLoai)
                 .HasMaxLength(50)
-                .IsUnicode(false);
+                .IsFixedLength();
         });
 
         modelBuilder.Entity<DonHang>(entity =>

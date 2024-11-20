@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
-namespace WebAppCaKoi.Helper
+namespace WebCaKoi.Helper
 {
     public static class SessionExtensions
     {
@@ -13,6 +13,7 @@ namespace WebAppCaKoi.Helper
         {
             var value = session.GetString(key);
             return value == null ? default : JsonConvert.DeserializeObject<T>(value);
+
         }
     }
 

@@ -30,7 +30,9 @@ namespace WebCaKoi.Controllers
             {
                 return RedirectToAction("Login", "Home");
             }
-            var lsdonhang = await _service.GetDonHangs();
+            var lsdonhang = await _service.GetDonHangs(userId.Value);
+            var Total = _cartService.GetTotal(userId.Value);
+            ViewBag.Total = Total;
             return View(lsdonhang);
         }
         public async Task<IActionResult> Details(int id)

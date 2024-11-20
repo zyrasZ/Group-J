@@ -1,4 +1,5 @@
 ﻿using CaKoi.Respository.Entities;
+using CaKoi.Service;
 using CaKoi.Service.Interface;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
@@ -16,12 +17,14 @@ namespace WebCaKoi.Controllers
         private readonly INhanVienService _nvservice;
         private readonly IKhachHangService _khservice;
         private readonly ICaCoiService _caService;
-        public AdminController(IDonHangService dhservice, INhanVienService nvservice, IKhachHangService khservice, ICaCoiService caService)
+        private readonly ICartService _cartService;
+        public AdminController(IDonHangService dhservice, INhanVienService nvservice, IKhachHangService khservice, ICaCoiService caService, ICartService cartService)
         {
             _dhservice = dhservice;
             _nvservice = nvservice;
             _khservice = khservice;
             _caService = caService;
+            _cartService = cartService;
         }
         // GET: AdminController
         [Authorize(AuthenticationSchemes = "AdminCookie")]
@@ -39,7 +42,9 @@ namespace WebCaKoi.Controllers
         // GET: AdminController/Details/5
         public async Task<IActionResult> Details(int id)
         {
-            var donchitiet = await _dhservice.GetDonHangChiTiets(id);
+            var donchitiet = await _dhservice.GetChiTiets(id);
+            var Total = _cartService.GetTotalCT(id);
+            ViewBag.Total = Total;
             if (donchitiet == null || donchitiet.Count == 0)
             {
                 return NotFound();

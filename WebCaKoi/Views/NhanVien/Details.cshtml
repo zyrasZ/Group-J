@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CaKoi.Respository.Entities.DonHangChiTiet>
+﻿@model IEnumerable<CaKoi.Respository.Entities.DonCt>
 
 <div>
     <a asp-action="Index" class="btn btn-primary">Back to List</a>
@@ -22,23 +22,25 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdcaKoi)
-            </td>
-            <td>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdcaKoi)
+                </td>
+                <td>
                     @Html.DisplayFor(modelItem => item.TenLoai)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SoLuong)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TongTien)
-            </td>
-            <td>
-              
-        </tr>
-}
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoLuong)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TongTien)
+                </td>
+                <td>
+
+            </tr>
+        }
     </tbody>
 </table>
+<h2>Tổng Tiền Thanh Toán: @ViewBag.Total$</h2>
